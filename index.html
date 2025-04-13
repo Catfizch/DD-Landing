@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Daddy’s Dreams | Corey Michael Taylor</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -16,29 +16,33 @@
   </header>
 
   <main>
+
+    <!-- Artist Section -->
     <section class="hero">
-      <img src="your-photo.jpg" alt="Corey Michael Taylor" class="artist-photo" />
+      <h2>Artist</h2>
+      <img src="your-photo.jpg" alt="Corey Michael Taylor" class="media-item artist-photo" />
     </section>
 
+    <!-- Gear Rack Section -->
+    <section class="gear">
+      <h2>My Gear</h2>
+      <img src="your-gear.jpg" alt="Studio Setup" class="media-item gear-photo" />
+      <img src="gear-rack.png" alt="Modular Synth Rig" class="media-item gear-photo" />
+    </section>
+
+    <!-- YouTube Video Section -->
     <section class="video">
       <h2>Watch</h2>
-      <div class="video-container">
-        <iframe 
-          src="https://www.youtube.com/embed/ygEtELE8oko" 
-          title="YouTube video player" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
-        </iframe>
-      </div>
+      <iframe 
+        src="https://www.youtube.com/embed/ygEtELE8oko" 
+        title="YouTube video player"
+        class="media-item video-frame"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
     </section>
 
-<section class="gear">
-  <h2>My Gear</h2>
-  <img src="your-gear.jpg" alt="Studio Setup" class="gear-photo" />
-  <img src="gear-rack.png" alt="Modular Synth Rig" class="gear-photo" />
-</section>
-    
+    <!-- Streaming Links -->
     <section class="links">
       <h2>Listen or Watch</h2>
       <div class="buttons">
@@ -47,6 +51,7 @@
         <a href="https://youtube.com/@catfizch?si=WZBeqJCY-DxHhq_T" target="_blank" class="btn">YouTube</a>
       </div>
     </section>
+
   </main>
 
   <footer>
