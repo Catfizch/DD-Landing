@@ -148,8 +148,8 @@ footer {
 }
 
 .modular-image {
-  width: 50%;
-  max-width: 400px;
+  width: 90vw; /* Viewport width: scales with screen */
+  max-width: 800px;
   height: auto;
   border-radius: 10px;
   border: 2px solid #f9c9a4;
