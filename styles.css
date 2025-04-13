@@ -1,94 +1,76 @@
-/* ========== GLOBAL STYLES ========== */
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-  color: #c2612b; 
+  font-family: 'Montserrat', sans-serif;
+  color: #a14646;
   text-align: center;
   position: relative;
   overflow-x: hidden;
-  padding: 2rem;
 }
 
-/* ========== BACKGROUND IMAGE ========== */
-.background {
+.background 
+{
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('background.jpg'); 
+  background-image: url('background.jpg'); /* replace with actual file name */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   z-index: -1;
-  opacity: 1;
+  opacity: 1; /* or 0.9 if you want slightly muted */
 }
 
-/* ========== HEADER ========== */
 header {
   padding: 2rem 1rem;
 }
 
-h1 {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
-  color: #c2612b;
-}
-
 .subtitle {
   font-size: 1.2rem;
-  color: #c2612b;
+  color: #555;
 }
 
-/* ========== IMAGES ========== */
-.artist-photo,
-.gear-photo {
+.hero .artist-photo,
+.gear .gear-photo {
   width: 80%;
   max-width: 600px;
   border-radius: 10px;
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
 
-/* ========== SECTIONS ========== */
-.gear,
+.gear {
+  padding: 2rem 1rem;
+}
+
 .links {
   padding: 2rem 1rem;
 }
 
-h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: #c2612b;
-}
-
-/* ========== BUTTONS ========== */
 .buttons {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .btn {
-  background-color: #ffffff;
-  color: #c2612b;
+  background-color: #090b20;
+  color: #1c0a0a;
   padding: 0.75rem 1.5rem;
-  border: 2px solid #c2612b;
   text-decoration: none;
-  border-radius: 6px;
+  border-radius: 5px;
   font-weight: bold;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s;
 }
 
 .btn:hover {
-  background-color: #c2612b;
-  color: #ffffff;
+  background-color: #eee;
 }
 
-/* ========== FOOTER ========== */
 footer {
   padding: 1rem;
   font-size: 0.9rem;
-  color: #c2612b;
+  color: #777;
 }
