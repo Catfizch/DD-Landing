@@ -41,7 +41,7 @@ header {
   object-fit: cover;      /* crops image to fit shape cleanly */
   border-radius: 10px;
   margin: 1.5rem 0;
-},
+}
 .gear-photo {
   width: 80%;
   max-width: 600px;
@@ -86,4 +86,21 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
   color: #f9c9a4;
+}
+
+@media (max-width: 600px) {
+  .artist-photo,
+  .gear-photo {
+    width: 95%;
+    aspect-ratio: auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
 }
