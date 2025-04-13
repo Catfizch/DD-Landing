@@ -35,21 +35,20 @@ header {
   color: #f9c9a4;
 }
 
-/* SHARED MEDIA STYLING (images + video) */
+/* MEDIA STYLING */
 .media-item {
   width: 90%;
   max-width: 600px;
   height: auto;
-  object-fit: contain;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
   display: block;
-  margin: 0.5rem auto;
+  margin: 1.5rem auto;
   border-radius: 10px;
 }
 
-/* INDIVIDUAL OVERRIDES IF NEEDED */
-.artist-photo {}
-.gear-photo {}
-.video-frame {.video {
+/* VIDEO EMBED */
+.video {
   padding: 2rem 1rem;
 }
 
@@ -79,12 +78,9 @@ header {
   border: none;
   border-radius: 10px;
 }
-}
 
-
-
-/* SECTIONS */
-.gear, .links, .video {
+/* SECTION PADDING */
+.gear, .links, .video, .hero {
   padding: 2rem 1rem;
 }
 
@@ -128,6 +124,7 @@ footer {
 @media (max-width: 600px) {
   .media-item {
     width: 95%;
+    aspect-ratio: auto;
   }
 
   h1 {
