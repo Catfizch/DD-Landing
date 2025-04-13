@@ -148,8 +148,8 @@ footer {
 }
 
 .modular-image {
-  width: 100%;
-  max-width: 800px;
+  width: 50%;
+  max-width: 400px;
   height: auto;
   border-radius: 10px;
   border: 2px solid #f9c9a4;
