@@ -136,3 +136,27 @@ footer {
     padding: 0.6rem 1rem;
   }
 }
+
+.modulargrid {
+  padding: 2rem 1rem;
+}
+
+.modulargrid h2 {
+  font-size: 2rem;
+  color: #f9c9a4;
+  margin-bottom: 1rem;
+}
+
+.modular-image {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 10px;
+  border: 2px solid #f9c9a4;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.modular-image:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
