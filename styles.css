@@ -47,7 +47,8 @@ header {
 }
 
 /* INDIVIDUAL OVERRIDES IF NEEDED */
-
+.artist-photo {}
+.gear-photo {}
 .video-frame {.video {
   padding: 2rem 1rem;
 }
@@ -60,8 +61,8 @@ header {
 
 .video-container {
   position: relative;
-  width: 100%;
-  max-width: contain;
+  width: 80%;
+  max-width: 800px;
   margin: 0 auto;
   padding-bottom: 56.25%; /* 16:9 ratio */
   height: 0;
