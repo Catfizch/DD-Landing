@@ -33,13 +33,17 @@ header {
   color: #555;
 }
 
-.hero .artist-photo,
-.gear .gear-photo {
+.artist-photo,
+.gear-photo {
   width: 80%;
   max-width: 600px;
+  height: auto;           /* keeps it responsive */
+  aspect-ratio: 3 / 2;    /* locks image to a landscape shape */
+  object-fit: cover;      /* crops image to fit shape cleanly */
   border-radius: 10px;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
 }
+
 
 .gear {
   padding: 2rem 1rem;
