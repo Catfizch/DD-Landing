@@ -34,7 +34,7 @@ header {
 }
 
 .artist-photo {
-  width: 80%;
+  width: 50%;
   max-width: 600px;
   height: auto;           /* keeps it responsive */
   aspect-ratio: 3 / 2;    /* locks image to a landscape shape */
